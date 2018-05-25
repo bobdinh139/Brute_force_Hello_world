@@ -26,11 +26,8 @@ public class BFHW extends JPanel  {
   public JFrame frame;
 public static void main(String[] args) throws Exception 
 {
-    System.out.println("Simulate C's stackOverflow vulnerbility ");
-    Vuln vuln = new Vuln();
-   vuln.enter_name();
  new Sound();
- new FinalPr().run();
+ new BFHW().run();
 
 }
 final long startTime=System.nanoTime();
