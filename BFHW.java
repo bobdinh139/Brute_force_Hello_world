@@ -26,7 +26,6 @@ public class BFHW extends JPanel  {
   public JFrame frame;
 public static void main(String[] args) throws Exception 
 {
- new Sound();
  new BFHW().run();
 
 }
